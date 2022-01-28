@@ -1,0 +1,10 @@
+class F 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Rashmi N");
+		System.out.print("Agrregate: 6.87");
+		System.out.print("YOP: 2019");
+
+	}
+}

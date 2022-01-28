@@ -1,0 +1,28 @@
+class A 
+{
+	int a;
+	int b = 10;
+
+	public  void display() 
+	{
+		System.out.println("Hello ");
+	}
+	public static void main(String[]args)
+	{
+	System.out.println("===============");
+	}
+
+
+
+
+}
+
+
+class B extends A
+{
+	int c;
+	int d=20;
+
+	
+
+}

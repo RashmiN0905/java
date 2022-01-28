@@ -1,0 +1,7 @@
+package pack1;
+class Tonga
+{
+	int b=10;
+	
+}
+

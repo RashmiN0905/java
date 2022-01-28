@@ -1,0 +1,23 @@
+class SingleLevel 
+{
+	int a=10;
+	public static void main (String[]args)
+	{
+		
+		System.out.println("=========");
+	}
+		
+}
+
+
+class mine extends SingleLevel
+{
+	static int g = 10;
+	int b;
+
+	public static void main (String[]args)
+	{
+		mine m = new mine();
+		System.out.println(m.b);
+	}
+}

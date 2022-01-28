@@ -1,0 +1,12 @@
+class Number
+{
+	private int digits;
+	private String name;
+
+Number(int digits, String name)
+	{
+	this.digits = digits;
+	this.name= name;
+	}
+
+}

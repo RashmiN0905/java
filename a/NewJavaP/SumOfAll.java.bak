@@ -1,0 +1,14 @@
+class  SumOfAll
+{
+	public static void main(String[] args) 
+	{
+		int sum=0;
+		do
+		{
+		int num=1;
+		sum=sum+num;
+		}
+		while(num<=20);
+		System.out.println(sum);
+	}
+}

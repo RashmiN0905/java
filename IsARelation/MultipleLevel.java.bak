@@ -1,0 +1,44 @@
+class A 
+{
+	int a;
+	int b;
+	public static void main(String[]args)
+	{
+		A a = new A();
+	System.out.println(a);
+	System.out.println(b);
+
+	}
+}
+
+class B extends A
+{
+	int c;
+	int d;
+	public static void main(String[]args)
+	{
+		B b =new B();
+	System.out.println(a);
+	System.out.println(b);
+	System.out.println(c);
+	System.out.println(d);
+	}
+}
+
+class C extends B
+{
+	int e;
+	int f;
+
+	public static void main(String[]args)
+	{
+		C c = new C();
+	System.out.println(a);
+	System.out.println(b);
+	System.out.println(c);
+	System.out.println(d);
+	System.out.println(e);
+	System.out.println(f);
+	}
+
+}

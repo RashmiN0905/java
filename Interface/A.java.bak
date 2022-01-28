@@ -1,0 +1,19 @@
+class A 
+{
+	
+}
+
+interface C
+{
+}
+class B extends A implements C
+{
+	public static void main(String[] args) 
+	{
+		A b = new B();
+
+		C c= (C)new A();
+		System.out.println("Hello World!");
+	}
+
+}

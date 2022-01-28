@@ -1,0 +1,16 @@
+class ProductOfNatural
+{
+	public static void main(String[] args) 
+	{
+		long prod=1;
+
+		for(int i=1; i<=20; i++)
+		{
+			prod= prod*i;
+			
+			System.out.println(prod);
+
+		}
+		
+	}
+}
